@@ -42,7 +42,7 @@ public class Product {
     private boolean active;
 
     @Column(name = "units_in_stock")
-    private int unitsImStock;
+    private int unitsInStock;
 
     @Column(name = "date_created")
     @CreationTimestamp // hibernate manages timestamps in the background
